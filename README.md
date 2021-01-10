@@ -104,6 +104,7 @@ sinalizador <- VERDADEIRO
  - <> : diferente
 
 > sem diferença: "ABC" = "abc" VERDADEIRO
+
 > lógicos obedecem a ordem: FALSO < VERDADEIRO
 
 ### Operadores Lógicos
@@ -153,6 +154,9 @@ fimfuncao
 ```
 
 > função sem retorno: void
+
 > parâmetros de tipos diferentes separa-se por ponto e vírgula (;)
+
 > espaços em branco são ignorados
+
 > strings ocupam apenas uma linha
