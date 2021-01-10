@@ -1,0 +1,31 @@
+algoritmo "fatorial"
+
+var n, res: inteiro
+
+funcao fat(n: inteiro): inteiro
+
+var i, f: inteiro
+
+inicio
+
+i <- 1
+f <- 1
+
+enquanto i <= n faca
+
+f <- f * i
+i <- i + 1
+
+fimenquanto
+
+retorne f
+
+fimfuncao
+
+inicio
+
+leia(n)
+res <- fat(n)
+escreva (res)
+
+fimalgoritmo
